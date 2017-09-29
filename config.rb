@@ -1,5 +1,8 @@
 activate :aria_current
 activate :autoprefixer
+activate :blog do |blog|
+  blog.tag_template = "tag.html"
+end
 
 set :css_dir, "assets/stylesheets"
 set :fonts_dir, "assets/fonts"
@@ -32,3 +35,4 @@ configure :production do
   activate :minify_html
   activate :minify_javascript
 end
+
