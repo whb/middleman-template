@@ -1,5 +1,10 @@
 // Typography
-$base-font-family: $font-stack-system;
+
+//$base-font-family: $font-stack-system;
+//$heading-font-family: $base-font-family;
+
+$sans-serif-family: "Calibre", -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+$base-font-family: $sans-serif-family;
 $heading-font-family: $base-font-family;
 
 // Line height
