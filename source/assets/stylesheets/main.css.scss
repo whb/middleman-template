@@ -4,3 +4,24 @@
 @import "reset/normalize";
 
 @import "base/base";
+
+.container {
+  @include grid-container;
+  margin: $base-spacing auto;
+  max-width: 960px;
+}
+
+.side-nav {
+  @include grid-column(4);
+}
+
+.post-container {
+  @include grid-column(8);
+}
+
+.post-block {
+    border-bottom: 1px solid #f0f0f2;
+    line-height: 1.9rem;
+    margin-bottom: 2.75rem;
+    padding-bottom: 2.75rem;
+}
